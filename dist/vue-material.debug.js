@@ -6078,8 +6078,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      position = (0, _getInViewPosition2.default)(this.menuContent, position);
 	
-	      this.menuContent.style.top = position.top + 'px';
-	      this.menuContent.style.left = position.left + 'px';
+	      this.menuContent.style.top = position.top + window.pageYOffset + 'px';
+	      this.menuContent.style.left = position.left + window.pageXOffset + 'px';
 	    },
 	    recalculateOnResize: function recalculateOnResize() {
 	      window.requestAnimationFrame(this.calculateMenuContentPos);

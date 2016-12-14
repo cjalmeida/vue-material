@@ -121,7 +121,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdList/mdList.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdList/mdList.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -132,9 +132,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-31411da3", __vue_options__)
+	    hotAPI.createRecord("data-v-2be9e535", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-31411da3", __vue_options__)
+	    hotAPI.reload("data-v-2be9e535", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdList.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -154,16 +154,16 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 129:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('ul', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('ul', {
 	    staticClass: "md-list"
-	  }, [_vm._t("default")])
+	  }, [_vm._t("default")], true)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-31411da3", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-2be9e535", module.exports)
 	  }
 	}
 
@@ -188,7 +188,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdList/mdListItem.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdList/mdListItem.vue"
 	
 	/* hot reload */
 	if (false) {(function () {
@@ -197,9 +197,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-8ade8454", __vue_options__)
+	    hotAPI.createRecord("data-v-1d876c68", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-8ade8454", __vue_options__)
+	    hotAPI.reload("data-v-1d876c68", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdListItem.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -377,7 +377,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdList/mdListExpand.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdList/mdListExpand.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -388,9 +388,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-413f471d", __vue_options__)
+	    hotAPI.createRecord("data-v-7d76cda2", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-413f471d", __vue_options__)
+	    hotAPI.reload("data-v-7d76cda2", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdListExpand.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -438,19 +438,19 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 134:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('div', {
 	    staticClass: "md-list-expand",
 	    style: ({
 	      'margin-bottom': _vm.height
 	    })
-	  }, [_vm._t("default")])
+	  }, [_vm._t("default")], true)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-413f471d", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-7d76cda2", module.exports)
 	  }
 	}
 

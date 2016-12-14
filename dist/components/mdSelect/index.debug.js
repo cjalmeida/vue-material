@@ -165,7 +165,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdSelect/mdSelect.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdSelect/mdSelect.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -176,9 +176,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-48754a3a", __vue_options__)
+	    hotAPI.createRecord("data-v-3ebc0975", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-48754a3a", __vue_options__)
+	    hotAPI.reload("data-v-3ebc0975", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdSelect.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -409,24 +409,24 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 160:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('div', {
 	    staticClass: "md-select",
 	    class: _vm.classes
-	  }, [_h('md-menu', {
+	  }, [_c('md-menu', {
 	    attrs: {
 	      "md-close-on-select": !_vm.multiple
 	    }
-	  }, [_h('span', {
+	  }, [_c('span', {
 	    ref: "value",
 	    staticClass: "md-select-value",
 	    attrs: {
 	      "md-menu-trigger": ""
 	    }
-	  }, [_vm._s(_vm.selectedText || _vm.multipleText || _vm.placeholder)]), " ", _h('md-menu-content', {
+	  }, [_vm._v(_vm._s(_vm.selectedText || _vm.multipleText || _vm.placeholder))]), _vm._v(" "), _c('md-menu-content', {
 	    staticClass: "md-select-content",
 	    class: _vm.contentClasses
-	  }, [_vm._t("default")])]), " ", _h('select', {
+	  }, [_vm._t("default")], true)]), _vm._v(" "), _c('select', {
 	    attrs: {
 	      "name": _vm.name,
 	      "id": _vm.id,
@@ -434,17 +434,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	      "disabled": _vm.disabled,
 	      "tabindex": "-1"
 	    }
-	  }, [_h('option', {
+	  }, [_c('option', {
 	    domProps: {
 	      "value": _vm.value
 	    }
-	  }, [_vm._s(_vm.value)])])])
+	  }, [_vm._v(_vm._s(_vm.value))])])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-48754a3a", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-3ebc0975", module.exports)
 	  }
 	}
 
@@ -472,7 +472,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdSelect/mdOption.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdSelect/mdOption.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -483,9 +483,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-df4f6c48", __vue_options__)
+	    hotAPI.createRecord("data-v-19620f24", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-df4f6c48", __vue_options__)
+	    hotAPI.reload("data-v-19620f24", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdOption.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -613,8 +613,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 163:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('md-menu-item', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('md-menu-item', {
 	    staticClass: "md-option",
 	    class: _vm.classes,
 	    attrs: {
@@ -623,7 +623,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    on: {
 	      "click": _vm.selectOption
 	    }
-	  }, [(_vm.parentSelect.multiple) ? _h('md-checkbox', {
+	  }, [(_vm.parentSelect.multiple) ? _c('md-checkbox', {
 	    directives: [{
 	      name: "model",
 	      rawName: "v-model",
@@ -639,17 +639,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _vm.check = $event
 	      }
 	    }
-	  }, [_h('span', {
+	  }, [_c('span', {
 	    ref: "item"
-	  }, [_vm._t("default")])]) : _h('span', {
+	  }, [_vm._t("default")], true)]) : _c('span', {
 	    ref: "item"
-	  }, [_vm._t("default")]), " "])
+	  }, [_vm._t("default")], true), _vm._v(" ")])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-df4f6c48", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-19620f24", module.exports)
 	  }
 	}
 

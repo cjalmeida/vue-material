@@ -127,7 +127,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdBottomBar/mdBottomBar.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdBottomBar/mdBottomBar.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -138,9 +138,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7f034f32", __vue_options__)
+	    hotAPI.createRecord("data-v-3a885179", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-7f034f32", __vue_options__)
+	    hotAPI.reload("data-v-3a885179", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdBottomBar.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -188,17 +188,17 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('div', {
 	    staticClass: "md-bottom-bar",
 	    class: _vm.classes
-	  }, [_vm._t("default")])
+	  }, [_vm._t("default")], true)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-7f034f32", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-3a885179", module.exports)
 	  }
 	}
 
@@ -225,7 +225,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdBottomBar/mdBottomBarItem.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdBottomBar/mdBottomBarItem.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -236,9 +236,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-c12a12cc", __vue_options__)
+	    hotAPI.createRecord("data-v-ba63d2a8", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-c12a12cc", __vue_options__)
+	    hotAPI.reload("data-v-ba63d2a8", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdBottomBarItem.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -325,8 +325,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return (_vm.href) ? _h('a', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return (_vm.href) ? _c('a', {
 	    directives: [{
 	      name: "md-ink-ripple",
 	      rawName: "v-md-ink-ripple"
@@ -339,9 +339,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    on: {
 	      "click": _vm.setActive
 	    }
-	  }, [_h('md-icon', [_vm._s(_vm.mdIcon)]), " ", _h('span', {
+	  }, [_c('md-icon', [_vm._v(_vm._s(_vm.mdIcon))]), _vm._v(" "), _c('span', {
 	    staticClass: "md-text"
-	  }, [_vm._t("default")])]) : _h('button', {
+	  }, [_vm._t("default")], true)]) : _c('button', {
 	    directives: [{
 	      name: "md-ink-ripple",
 	      rawName: "v-md-ink-ripple"
@@ -354,15 +354,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    on: {
 	      "click": _vm.setActive
 	    }
-	  }, [_h('md-icon', [_vm._s(_vm.mdIcon)]), " ", _h('span', {
+	  }, [_c('md-icon', [_vm._v(_vm._s(_vm.mdIcon))]), _vm._v(" "), _c('span', {
 	    staticClass: "md-text"
-	  }, [_vm._t("default")])])
+	  }, [_vm._t("default")], true)])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-c12a12cc", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-ba63d2a8", module.exports)
 	  }
 	}
 

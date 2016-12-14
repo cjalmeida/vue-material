@@ -114,7 +114,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdSwitch/mdSwitch.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdSwitch/mdSwitch.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -125,9 +125,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-a99e4c3a", __vue_options__)
+	    hotAPI.createRecord("data-v-0e278875", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-a99e4c3a", __vue_options__)
+	    hotAPI.reload("data-v-0e278875", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdSwitch.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -229,16 +229,16 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 180:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('div', {
 	    staticClass: "md-switch",
 	    class: _vm.classes
-	  }, [_h('div', {
+	  }, [_c('div', {
 	    staticClass: "md-switch-container",
 	    on: {
 	      "click": _vm.toggleSwitch
 	    }
-	  }, [_h('div', {
+	  }, [_c('div', {
 	    directives: [{
 	      name: "md-ink-ripple",
 	      rawName: "v-md-ink-ripple",
@@ -247,7 +247,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }],
 	    staticClass: "md-switch-thumb",
 	    style: (_vm.styles)
-	  }, [_h('input', {
+	  }, [_c('input', {
 	    attrs: {
 	      "type": "checkbox",
 	      "name": _vm.name,
@@ -257,23 +257,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	    domProps: {
 	      "value": _vm.value
 	    }
-	  }), " ", _h('button', {
+	  }), _vm._v(" "), _c('button', {
 	    staticClass: "md-switch-holder",
 	    attrs: {
 	      "type": _vm.type
 	    }
-	  })])]), " ", (_vm.$slots.default) ? _h('label', {
+	  })])]), _vm._v(" "), (_vm.$slots.default) ? _c('label', {
 	    staticClass: "md-switch-label",
 	    attrs: {
 	      "for": _vm.id || _vm.name
 	    }
-	  }, [_vm._t("default")]) : _vm._e()])
+	  }, [_vm._t("default")], true) : _vm._e()])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-a99e4c3a", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-0e278875", module.exports)
 	  }
 	}
 

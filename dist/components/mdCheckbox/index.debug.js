@@ -114,7 +114,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdCheckbox/mdCheckbox.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdCheckbox/mdCheckbox.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -125,9 +125,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-42429b83", __vue_options__)
+	    hotAPI.createRecord("data-v-53889dd6", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-42429b83", __vue_options__)
+	    hotAPI.reload("data-v-53889dd6", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdCheckbox.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -210,11 +210,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 65:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('div', {
 	    staticClass: "md-checkbox",
 	    class: _vm.classes
-	  }, [_h('div', {
+	  }, [_c('div', {
 	    directives: [{
 	      name: "md-ink-ripple",
 	      rawName: "v-md-ink-ripple",
@@ -231,7 +231,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _vm.toggleCheck($event)
 	      }
 	    }
-	  }, [_h('input', {
+	  }, [_c('input', {
 	    attrs: {
 	      "type": "checkbox",
 	      "name": _vm.name,
@@ -242,18 +242,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	    domProps: {
 	      "value": _vm.value
 	    }
-	  })]), " ", (_vm.$slots.default) ? _h('label', {
+	  })]), _vm._v(" "), (_vm.$slots.default) ? _c('label', {
 	    staticClass: "md-checkbox-label",
 	    attrs: {
 	      "for": _vm.id || _vm.name
 	    }
-	  }, [_vm._t("default")]) : _vm._e()])
+	  }, [_vm._t("default")], true) : _vm._e()])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-42429b83", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-53889dd6", module.exports)
 	  }
 	}
 

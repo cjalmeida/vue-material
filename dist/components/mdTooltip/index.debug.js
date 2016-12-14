@@ -137,7 +137,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTooltip/mdTooltip.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTooltip/mdTooltip.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -148,9 +148,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-5da82edd", __vue_options__)
+	    hotAPI.createRecord("data-v-44a4fe22", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-5da82edd", __vue_options__)
+	    hotAPI.reload("data-v-44a4fe22", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTooltip.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -360,18 +360,18 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 227:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
-	  return _h('span', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('span', {
 	    staticClass: "md-tooltip",
 	    class: _vm.classes,
 	    style: (_vm.style)
-	  }, [_vm._t("default")])
+	  }, [_vm._t("default")], true)
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-5da82edd", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-44a4fe22", module.exports)
 	  }
 	}
 

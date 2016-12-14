@@ -105,7 +105,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdWhiteframe/mdWhiteframe.vue"
+	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdWhiteframe/mdWhiteframe.vue"
 	
 	/* hot reload */
 	if (false) {(function () {
@@ -114,9 +114,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-5fea99e3", __vue_options__)
+	    hotAPI.createRecord("data-v-7f5a9675", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-5fea99e3", __vue_options__)
+	    hotAPI.reload("data-v-7f5a9675", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdWhiteframe.vue: functional components are not supported and should be defined in plain js files using render functions.")}

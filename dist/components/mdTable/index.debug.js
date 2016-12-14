@@ -194,7 +194,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTable.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTable.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -205,9 +205,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-19e9c945", __vue_options__)
+	    hotAPI.createRecord("data-v-26549e33", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-19e9c945", __vue_options__)
+	    hotAPI.reload("data-v-26549e33", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTable.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -293,16 +293,16 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 186:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('div', {
 	    staticClass: "md-table"
-	  }, [_c('table', [_vm._t("default")], true)])
+	  }, [_h('table', [_vm._t("default")])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-19e9c945", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-26549e33", module.exports)
 	  }
 	}
 
@@ -330,7 +330,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTableRow.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTableRow.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -341,9 +341,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-1d2f54f6", __vue_options__)
+	    hotAPI.createRecord("data-v-14ed9c52", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-1d2f54f6", __vue_options__)
+	    hotAPI.reload("data-v-14ed9c52", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTableRow.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -497,16 +497,16 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 189:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('tr', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('tr', {
 	    staticClass: "md-table-row",
 	    class: _vm.classes,
 	    on: {
 	      "click": _vm.autoSelect
 	    }
-	  }, [(_vm.hasSelection) ? _c('md-table-cell', {
+	  }, [(_vm.hasSelection) ? _h('md-table-cell', {
 	    staticClass: "md-table-selection"
-	  }, [_c('md-checkbox', {
+	  }, [_h('md-checkbox', {
 	    directives: [{
 	      name: "model",
 	      rawName: "v-model",
@@ -525,13 +525,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _vm.checkbox = $event
 	      }
 	    }
-	  })]) : _vm._e(), _vm._v(" "), _vm._t("default")], true)
+	  })]) : _vm._e(), " ", _vm._t("default")])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-1d2f54f6", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-14ed9c52", module.exports)
 	  }
 	}
 
@@ -559,7 +559,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTableHead.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTableHead.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -570,9 +570,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-0db42676", __vue_options__)
+	    hotAPI.createRecord("data-v-79209ab3", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-0db42676", __vue_options__)
+	    hotAPI.reload("data-v-79209ab3", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTableHead.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -676,14 +676,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 192:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('th', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('th', {
 	    staticClass: "md-table-head",
 	    class: _vm.classes,
 	    on: {
 	      "click": _vm.changeSort
 	    }
-	  }, [_c('div', {
+	  }, [_h('div', {
 	    directives: [{
 	      name: "md-ink-ripple",
 	      rawName: "v-md-ink-ripple",
@@ -691,17 +691,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	      expression: "!mdSortBy"
 	    }],
 	    staticClass: "md-table-head-container"
-	  }, [_c('div', {
+	  }, [_h('div', {
 	    staticClass: "md-table-head-text md-test"
-	  }, [(_vm.mdSortBy) ? _c('md-icon', {
+	  }, [(_vm.mdSortBy) ? _h('md-icon', {
 	    staticClass: "md-sortable-icon"
-	  }, [_vm._v("arrow_downward")]) : _vm._e(), _vm._v(" "), _vm._t("default"), _vm._v(" "), (_vm.mdTooltip) ? _c('md-tooltip', [_vm._v(_vm._s(_vm.mdTooltip))]) : _vm._e()], true)])])
+	  }, ["arrow_downward"]) : _vm._e(), " ", _vm._t("default"), " ", (_vm.mdTooltip) ? _h('md-tooltip', [_vm._s(_vm.mdTooltip)]) : _vm._e()])])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-0db42676", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-79209ab3", module.exports)
 	  }
 	}
 
@@ -729,7 +729,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTableCell.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTableCell.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -740,9 +740,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-04f61747", __vue_options__)
+	    hotAPI.createRecord("data-v-f61e7596", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-04f61747", __vue_options__)
+	    hotAPI.reload("data-v-f61e7596", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTableCell.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -799,19 +799,19 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 195:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('td', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('td', {
 	    staticClass: "md-table-cell",
 	    class: _vm.classes
-	  }, [_c('div', {
+	  }, [_h('div', {
 	    staticClass: "md-table-cell-container"
-	  }, [_vm._t("default")], true)])
+	  }, [_vm._t("default")])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-04f61747", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-f61e7596", module.exports)
 	  }
 	}
 
@@ -839,7 +839,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTableEdit.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTableEdit.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -850,9 +850,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-c9b73022", __vue_options__)
+	    hotAPI.createRecord("data-v-1b1f15dd", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-c9b73022", __vue_options__)
+	    hotAPI.reload("data-v-1b1f15dd", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTableEdit.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -957,8 +957,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 198:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('div', {
 	    staticClass: "md-table-edit",
 	    on: {
 	      "keydown": function($event) {
@@ -966,7 +966,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _vm.closeDialog($event)
 	      }
 	    }
-	  }, [_c('div', {
+	  }, [_h('div', {
 	    staticClass: "md-table-edit-trigger",
 	    class: _vm.triggerClasses,
 	    on: {
@@ -975,11 +975,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _vm.openDialog($event)
 	      }
 	    }
-	  }, [_vm._v("\n    " + _vm._s(_vm.value || _vm.mdPlaceholder) + "\n  ")]), _vm._v(" "), _c('div', {
+	  }, ["\n    " + _vm._s(_vm.value || _vm.mdPlaceholder) + "\n  "]), " ", _h('div', {
 	    ref: "dialog",
 	    staticClass: "md-table-dialog",
 	    class: _vm.dialogClasses
-	  }, [_c('md-input-container', [_c('md-input', {
+	  }, [_h('md-input-container', [_h('md-input', {
 	    ref: "input",
 	    attrs: {
 	      "id": _vm.mdId,
@@ -1000,7 +1000,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-c9b73022", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-1b1f15dd", module.exports)
 	  }
 	}
 
@@ -1025,7 +1025,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTableCard.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTableCard.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -1036,9 +1036,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-3b2981f5", __vue_options__)
+	    hotAPI.createRecord("data-v-89b7a03a", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-3b2981f5", __vue_options__)
+	    hotAPI.reload("data-v-89b7a03a", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTableCard.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -1051,16 +1051,16 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 200:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('md-card', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('md-card', {
 	    staticClass: "md-table-card"
-	  }, [_vm._t("default")], true)
+	  }, [_vm._t("default")])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-3b2981f5", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-89b7a03a", module.exports)
 	  }
 	}
 
@@ -1088,7 +1088,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTableAlternateHeader.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTableAlternateHeader.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -1099,9 +1099,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-3076975c", __vue_options__)
+	    hotAPI.createRecord("data-v-8918b4b8", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-3076975c", __vue_options__)
+	    hotAPI.reload("data-v-8918b4b8", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTableAlternateHeader.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -1176,21 +1176,21 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 203:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('div', {
 	    staticClass: "md-table-alternate-header",
 	    class: _vm.classes
-	  }, [_c('md-toolbar', [_c('div', {
+	  }, [_h('md-toolbar', [_h('div', {
 	    staticClass: "md-counter"
-	  }, [_c('span', {
+	  }, [_h('span', {
 	    ref: "counter"
-	  }, [_vm._v(_vm._s(_vm.tableInstance.numberOfSelected))]), _vm._v(" "), _c('span', [_vm._v(_vm._s(_vm.mdSelectedLabel))])]), _vm._v(" "), _vm._t("default")], true)])
+	  }, [_vm._s(_vm.tableInstance.numberOfSelected)]), " ", _h('span', [_vm._s(_vm.mdSelectedLabel)])]), " ", _vm._t("default")])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-3076975c", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-8918b4b8", module.exports)
 	  }
 	}
 
@@ -1218,7 +1218,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdTable/mdTablePagination.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdTable/mdTablePagination.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -1229,9 +1229,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-40b9bbbf", __vue_options__)
+	    hotAPI.createRecord("data-v-2149bf2d", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-40b9bbbf", __vue_options__)
+	    hotAPI.reload("data-v-2149bf2d", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdTablePagination.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -1359,12 +1359,12 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ 206:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('div', {
 	    staticClass: "md-table-pagination"
-	  }, [_c('span', {
+	  }, [_h('span', {
 	    staticClass: "md-table-pagination-label"
-	  }, [_vm._v(_vm._s(_vm.mdLabel) + ":")]), _vm._v(" "), (_vm.mdPageOptions) ? _c('md-select', {
+	  }, [_vm._s(_vm.mdLabel) + ":"]), " ", (_vm.mdPageOptions) ? _h('md-select', {
 	    directives: [{
 	      name: "model",
 	      rawName: "v-model",
@@ -1383,13 +1383,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	        _vm.currentSize = $event
 	      }
 	    }
-	  }, _vm._l((_vm.mdPageOptions), function(amount) {
-	    return _c('md-option', {
+	  }, [_vm._l((_vm.mdPageOptions), function(amount) {
+	    return _h('md-option', {
 	      attrs: {
 	        "value": amount
 	      }
-	    }, [_vm._v(_vm._s(amount))])
-	  })) : _vm._e(), _vm._v(" "), _c('span', [_vm._v(_vm._s(((_vm.currentPage - 1) * _vm.currentSize) + 1) + "-" + _vm._s(_vm.subTotal) + " " + _vm._s(_vm.mdSeparator) + " " + _vm._s(_vm.totalItems))]), _vm._v(" "), _c('md-button', {
+	    }, [_vm._s(amount)])
+	  })]) : _vm._e(), " ", _h('span', [_vm._s(((_vm.currentPage - 1) * _vm.currentSize) + 1) + "-" + _vm._s(_vm.subTotal) + " " + _vm._s(_vm.mdSeparator) + " " + _vm._s(_vm.totalItems)]), " ", _h('md-button', {
 	    staticClass: "md-icon-button md-table-pagination-previous",
 	    attrs: {
 	      "disabled": _vm.currentPage === 1
@@ -1397,7 +1397,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    on: {
 	      "click": _vm.previousPage
 	    }
-	  }, [_c('md-icon', [_vm._v("keyboard_arrow_left")])]), _vm._v(" "), _c('md-button', {
+	  }, [_h('md-icon', ["keyboard_arrow_left"])]), " ", _h('md-button', {
 	    staticClass: "md-icon-button md-table-pagination-next",
 	    attrs: {
 	      "disabled": _vm.currentSize * _vm.currentPage >= _vm.totalItems
@@ -1405,13 +1405,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    on: {
 	      "click": _vm.nextPage
 	    }
-	  }, [_c('md-icon', [_vm._v("keyboard_arrow_right")])])])
+	  }, [_h('md-icon', ["keyboard_arrow_right"])])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-40b9bbbf", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-2149bf2d", module.exports)
 	  }
 	}
 

@@ -111,7 +111,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/home/cjalmeida/work/shop/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
+	__vue_options__.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -122,9 +122,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-94e3d196", __vue_options__)
+	    hotAPI.createRecord("data-v-219501a3", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-94e3d196", __vue_options__)
+	    hotAPI.reload("data-v-219501a3", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] mdBackdrop.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -167,8 +167,8 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
-	  return _c('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;
+	  return _h('div', {
 	    staticClass: "md-backdrop",
 	    on: {
 	      "click": _vm.close,
@@ -183,7 +183,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-94e3d196", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-219501a3", module.exports)
 	  }
 	}
 
